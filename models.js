@@ -5,7 +5,7 @@ const sessionSchema = mongoose.Schema({
   // clockInHumanReadable: {type: Date, required: true},
   clockOut: {type: Date},
   // clockOutHumanReadable: {type: Date, required: true},
-  // totalTime: {type: String},
+  sessionTotal: {type: Number},
   tags: [String],
   notes: String
 });
@@ -18,7 +18,7 @@ sessionSchema.methods.apiRepr = function() {
     // clockInHumanReadable: this.clockInHumanReadable,
     clockOut: this.clockOut,
     // clockOutHumanReadable: this.clockOutHumanReadable,
-    totalTime: this.totalTime,
+    sessionTotal: this.sessionTotal,
     tags: this.tags,
     notes: this.notes
   };
