@@ -1,0 +1,8 @@
+{"clockIn": {"$date": "2017-06-26T00:53:53.255Z"},
+  "clockOut": {"$date": "2017-06-26T00:54:19.851Z"},
+  "tags": ["JavaScript", "algoriths"],
+  "notes": "a bite sized study session"}
+{"clockIn": {"$date": "2017-06-26T00:54:31.359Z"},
+  "clockOut": {"$date": "2017-06-26T00:54:39.917Z"},
+  "tags": ["Express", "building APIs"],
+  "notes": "here are some notes about the session"}
